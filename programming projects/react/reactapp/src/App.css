@@ -1,0 +1,12 @@
+.tweet {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

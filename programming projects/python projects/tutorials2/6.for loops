@@ -1,0 +1,22 @@
+import turtle
+
+a_turtle = turtle.Turtle()
+
+def square():
+    a_turtle.forward(100)
+    a_turtle.right(120)
+    a_turtle.forward(100)
+    a_turtle.right(120)
+    a_turtle.forward(100)
+    a_turtle.right(120)
+    a_turtle.forward(100)
+    a_turtle.right(100)
+#           it is like do something in 5 times
+#for i in range(5):
+    #print(i)
+for i in range(4):
+    square()
+square()
+
+
+
